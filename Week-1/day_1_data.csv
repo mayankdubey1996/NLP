@@ -1,0 +1,11 @@
+id,text,label
+1,"Hello, world! My phone number is 1234-5678.",greeting
+2,"@John, it's nice to meet you (again!). #Welcome",greeting
+3,"I can't wait 2 see you tomorrow!!!",farewell
+4,"Check out https://example.com for more info & deals (50% off).",notification
+5,"We LOVE Python & enjoy data science 24/7!!!",affirmation
+6,"$$$ Money matters $$$, especially when you have $25 or 30€.",statement
+7,"Error code: 404. Page not found???",error
+8,"Contact us at info@example.org (Support line: +1-800-123-4567)",notification
+9,"Please follow @my_profile ASAP! #Urgent",request
+10,"Random text with ??? punctuation ###, 99 problems??!",misc
