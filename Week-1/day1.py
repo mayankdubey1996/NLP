@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import pandas as pd
 import re
 
@@ -25,7 +25,7 @@ if __name__ =="__main__":
     print(df[['len_of_unclean_text','len_of_clean_text']])
 
 
-=======
+
 import pandas as pd
 import re
 
@@ -50,6 +50,4 @@ if __name__ =="__main__":
 
     print(df[['len_of_unclean_text','len_of_clean_text']])
 
-
->>>>>>> 67328ceec73b5dd7753fbf00284c5c290f213107
     
