@@ -9,7 +9,8 @@ def count_sentence_len(text):
     return len(text.split())
 
 def clean_text(text):
-    return re.sub(r'[^\w\s]|[\d]', '', text)
+    clean_text=re.sub(r'[^\w\s]|[\d]', '', text)
+    return clean_text.lower()
 
 if __name__ =="__main__":
     dataset_name = "day_1_data.csv"
