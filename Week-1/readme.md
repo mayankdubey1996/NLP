@@ -72,6 +72,8 @@
 - [NLTK Stop words](https://pythonspot.com/nltk-stop-words/)
 - [SpaCy Stop Words](https://spacy.io/usage/rule-based-matching)
 
+---
+
 **Hands-On:**
 - Remove stopwords from a dataset using NLTK and Spacy.
 
@@ -91,3 +93,5 @@
 **Hands-On:**
 - Apply stemming and lemmatization to the preprocessed text.
 - Compare results and document observations.
+
+---
