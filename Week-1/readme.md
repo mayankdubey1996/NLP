@@ -59,8 +59,18 @@
 
 ---
 
-### Notes
+#### Day 3: Stop Words Removal
 
-- Ensure all scripts are modular and reusable.
-- Document each step with appropriate comments in the code.
-- Test all scripts on sample data before applying them to the mini-project dataset.
+**Tasks:**
+
+- Understand stopwords and their role in text preprocessing.
+- Use NLTK and SpaCy to filter out stopwords.
+
+**Resources:**
+
+- [Stop Words](https://medium.com/@yashj302/stopwords-nlp-python-4aa57dc492af#:~:text=Stop%20words%20are%20common%20words%20in%20any%20language%20that%20occur,%2C%20were%2C%20is%2C%20not%20%E2%80%A6)
+- [NLTK Stop words](https://pythonspot.com/nltk-stop-words/)
+- [SpaCy Stop Words](https://spacy.io/usage/rule-based-matching)
+
+**Hands-On:**
+- Remove stopwords from a dataset using NLTK and Spacy.
