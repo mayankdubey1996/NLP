@@ -74,3 +74,20 @@
 
 **Hands-On:**
 - Remove stopwords from a dataset using NLTK and Spacy.
+
+#### Day 4: Stemming and Lemmatization
+
+**Tasks:**
+
+- Learn the difference between stemming and lemmatization.
+- Implement stemming using NLTK and lemmatization using SpaCy.
+
+**Resources:**
+
+- [Stemming and Lemmatization](https://www.analyticsvidhya.com/blog/2021/06/text-preprocessing-in-nlp-with-python-codes/)
+- [Spacy vs NLTK - Stemming and Lemmatization](https://devskrol.com/2021/11/28/spacy-stemming-vs-lemmatization/)
+
+
+**Hands-On:**
+- Apply stemming and lemmatization to the preprocessed text.
+- Compare results and document observations.
