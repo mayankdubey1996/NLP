@@ -75,7 +75,7 @@ if __name__=="__main__":
     print("Spacy Lemmatization")
     print(df)    
 
-    corpus = df["spacy_lemmatization"].tolist()
+    corpus = df["spacy_lemmatization"].apply(lambda tokens: " ".join(tokens)).tolist()
     vectorization = WordVectorization()
     X_count_vectorizer, count_vectorizer, X_tfidf_vectorizer, tfidf_vectorizer = vectorization.word_vectorization_pipeline(corpus)
 
@@ -88,3 +88,13 @@ if __name__=="__main__":
     print(X_tfidf_vectorizer)
     print("Tfidf Vectorizer feature names")
     print(tfidf_vectorizer.get_feature_names_out())
+
+     # Convert Count Vectorizer matrix to DataFrame
+    count_df = pd.DataFrame(X_count_vectorizer, columns=count_vectorizer.get_feature_names_out())
+    count_df.to_csv("E:/NLP/datasets/mini-project-1-data/week2_day_3count_vectorizer.csv", index=False)
+    print("Count Vectorizer matrix saved to 'count_vectorizer.csv'")
+
+    # Convert Tfidf Vectorizer matrix to DataFrame
+    tfidf_df = pd.DataFrame(X_tfidf_vectorizer, columns=tfidf_vectorizer.get_feature_names_out())
+    tfidf_df.to_csv("E:/NLP/datasets/mini-project-1-data/week_2_day3_tfidf_vectorizer.csv", index=False)
+    print("Tfidf Vectorizer matrix saved to 'tfidf_vectorizer.csv'")
