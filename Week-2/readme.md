@@ -4,8 +4,8 @@ A comprehensive implementation of text vectorization techniques using Bag-of-Wor
 
 ## 📂 Repository Structure
 
+```bash
 Week-2/
-│
 ├── Data/
 │   └── bbc-news-data.csv             # BBC News Dataset
 ├── bag_of_words.py                   # BoW implementation
@@ -13,7 +13,7 @@ Week-2/
 ├── similarity_matrix.py              # Similarity implementation
 ├── preprocessing_bow_tfidf.py        # Preprocessing for vectorization
 └── keywords_extractor.py             # Keyword extraction implementation
-
+```
 
 ## 🎯 Mini Project
 The [keyword_extractor.py](https://github.com/mayankdubey1996/NLP/blob/main/Week-2/keyword_extractor.py) implements a complete keyword extraction pipeline using TF-IDF. Key features:
