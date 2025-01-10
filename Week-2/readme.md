@@ -6,12 +6,15 @@ A comprehensive implementation of text vectorization techniques using Bag-of-Wor
 
 Week-2/
 │
-├── day1.py           # Bag-of-Words implementation
-├── day2.py           # TF-IDF implementation
-├── day3.py           # Preprocessing for vectorization
-├── day4.py           # Cosine similarity implementation
+├── Data/
+│   └── bbc-news-data.csv         # BBC News Dataset
 │
-├── keyword_extractor.py    # Complete keyword extraction pipeline
+├── bag_of_words.py               # BoW implementation
+├── tf_idf.py                     # TF-IDF implementation  
+├── similarity_matrix.py          # Similarity implementation
+├── preprocessing_bow_tfidf.py    # Preprocessing for vectorization
+│
+└── keywords_extractor.py         # Keyword extraction implementation
 
 
 ## 🎯 Mini Project
@@ -58,14 +61,23 @@ The [keyword_extractor.py](https://github.com/mayankdubey1996/NLP/blob/main/Week
 
 ```bash
 pip install scikit-learn pandas numpy
+```
 
 from keyword_extractor import KeywordExtractor
 
+## 🚀 Usage
+
 # Initialize extractor
+
+``` python
 extractor = KeywordExtractor()
+```
 
 # Extract keywords from text
+
+```python
 keywords = extractor.extract_keywords("your_text_here", top_k=10)
+```
 
 ## 📊 Output
 The keyword extractor generates a CSV file containing:
