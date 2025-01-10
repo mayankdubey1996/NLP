@@ -7,6 +7,16 @@ For a detailed explanation of the concepts and implementation, check out our [Me
 
 ## 📂 Repository Structure
 
+```bash
+Week-1/
+
+day1.py           # Text cleaning implementation
+day2.py           # Tokenization exercises
+day3.py           # Stop words removal
+day4.py           # Stemming and lemmatization
+data_preprocessing_pipeline.py    # Complete pipeline implementation
+```
+
 ## 🎯 Mini Project
 The [data_preprocessing_pipeline.py](https://github.com/mayankdubey1996/NLP/blob/main/Week-1/data_preprocessing_pipeline.py) implements a complete text preprocessing pipeline with both NLTK and spaCy approaches. Key features:
 - Text cleaning with regex
