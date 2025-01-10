@@ -157,9 +157,8 @@ keywords = extractor.extract_keywords("your_text_here", top_k=10)
 ```
 
 ## 📊 Output
-The keyword extractor generates a CSV file containing:
-
-Document ID/Title
-Original text
-Top K keywords
-Keyword importance scores
+- The keyword extractor generates a CSV file containing:
+   - Document ID/Title
+   - Original text
+   - Top K keywords
+   - Keyword importance scores
