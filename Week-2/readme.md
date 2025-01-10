@@ -55,6 +55,85 @@ The [keyword_extractor.py](https://github.com/mayankdubey1996/NLP/blob/main/Week
    - Document comparison
    - Similarity score calculation
 
+## Weekly Plan
+### Day 1: Bag-of-Words Basics
+**Tasks:**
+
+- Install and set up Python libraries: scikit-learn, pandas, numpy
+- Learn the basics of Bag-of-Words:
+   - Vocabulary creation
+   - Word count vectors
+   - Document representation
+- Practice generating word vectors
+
+**Resources:**
+
+[Scikit-Learn Text Feature Extraction](https://scikit-learn.org/1.5/modules/feature_extraction.html)
+[Bag of Words : Natural Language Processing](https://www.youtube.com/watch?v=irzVuSO8o4g)
+
+#### Day 2: Introduction to TF-IDF
+**Tasks:**
+
+- Learn about TF-IDF components
+- Understand term frequency and document frequency
+- Practice implementing TF-IDF
+
+**Resources:**
+
+[Scikit-Learn TF-IDF Guide](https://scikit-learn.org/1.5/modules/feature_extraction.html)
+[TFIDF : Data Science Concepts](https://www.youtube.com/watch?v=OymqCnh-APA&t=24s)
+
+#### Day 3: Preprocessing for Vectorization
+**Tasks:**
+
+- Combine preprocessing with vectorization techniques
+- Practice cleaning and preparing text for BoW/TF-IDF
+- Apply techniques to BBC News Dataset
+
+**Resources:**
+
+[Kaggle - Text Preprocessing for NLP](https://www.kaggle.com/c/learn-ai-bbc/data)
+
+**Hands-On:**
+
+- Implement preprocessing pipeline for vectorization
+
+
+
+#### Day 4: Similarity Metrics Implementation
+
+**Tasks:**
+
+- Learn about cosine similarity
+- Implement document similarity calculation
+- Practice comparing text vectors
+
+**Resources:**
+
+[Cosine Similarity, Clearly Explained!!!](https://www.youtube.com/watch?v=e9U0QAFbfLI&t=365s)
+
+**Hands-On:**
+- Calculate similarity between documents
+
+
+
+#### Day 5-7: Mini Project - Keyword Extractor
+
+**Tasks:**
+
+- Implement a complete keyword extraction system
+- Use TF-IDF for finding important words
+- Process BBC News dataset
+- Extract and evaluate keywords
+
+Resources:
+
+[Keyword Extraction with TF-IDF](https://www.youtube.com/watch?v=TBUpxFw8oIA)
+Hands-On:
+
+- Build end-to-end keyword extraction pipeline
+- Evaluate results on news articles   
+
 ## 🔧 Setup
 
 ```bash
