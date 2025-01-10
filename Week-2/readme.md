@@ -7,14 +7,12 @@ A comprehensive implementation of text vectorization techniques using Bag-of-Wor
 Week-2/
 │
 ├── Data/
-│   └── bbc-news-data.csv         # BBC News Dataset
-│
-├── bag_of_words.py               # BoW implementation
-├── tf_idf.py                     # TF-IDF implementation  
-├── similarity_matrix.py          # Similarity implementation
-├── preprocessing_bow_tfidf.py    # Preprocessing for vectorization
-│
-└── keywords_extractor.py         # Keyword extraction implementation
+│   └── bbc-news-data.csv             # BBC News Dataset
+├── bag_of_words.py                   # BoW implementation
+├── tf_idf.py                         # TF-IDF implementation
+├── similarity_matrix.py              # Similarity implementation
+├── preprocessing_bow_tfidf.py        # Preprocessing for vectorization
+└── keywords_extractor.py             # Keyword extraction implementation
 
 
 ## 🎯 Mini Project
